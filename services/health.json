@@ -1,0 +1,7 @@
+{
+  "health": {
+    "healthy": 42,
+    "warning": 0,
+    "error": 5
+  }
+}
