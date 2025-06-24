@@ -1,0 +1,8 @@
+#!/bin/bash
+
+git fetch --all -pt
+git checkout gh-pages
+git reset --hard upstream/gh-pages
+git reset e57814c
+git add .
+git commit -m "Squashed current state"
